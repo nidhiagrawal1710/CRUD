@@ -85,6 +85,16 @@
               </tr>
             </thead>
             <tbody>
+              <div class="form-group">
+              <input
+                type="text"
+                placeholder="Enter the Student Name "
+                class="form-control"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
               {% for d in data %}
               <tr>
                 <th scope="row">{{d.id}}</th>
